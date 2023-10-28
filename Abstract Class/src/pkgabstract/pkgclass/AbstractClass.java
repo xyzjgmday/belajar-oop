@@ -1,20 +1,28 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package pkgabstract.pkgclass;
 
-/**
- *
- * @author Day
- */
 public class AbstractClass {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        MobilePhone HP1 = new MobilePhone();
+        SmartPhone HP2 = new SmartPhone("081255556666");
+        HP1.setPhoneNumber("081233334444");
+        HP1.setMerk("Samsung");
+        HP2.setMerk("XIAOMI");
+        System.out.println("===================");
+        HP1.call("081255557777");
+        HP1.displayInfo();
+        HP1.call("081233334444");
+        System.out.println("===================");
+        HP2.endCall();
+        HP2.displayInfo();
+        checkPhoneNumber(HP1);
+        checkPhoneNumber(HP2);
+
     }
     
+    
+    public static void checkPhoneNumber(Phone phone) {
+        System.out.println("Nomor dari telpon ini adalah : " +
+        phone.getPhoneNumber());
+    }
+
 }

@@ -11,21 +11,6 @@ public class PolymorphismDinamik {
         kucing.suara();
         ayam.suara();
         harimau.suara();
-        
-        
-
-//        // Menampilkan suara dari berbagai hewan
-//        tampilkanSuara("Hewan bersuara", hewan);
-//        tampilkanSuara("Kuda mengikik ...", kuda);
-//        tampilkanSuara("Kucing mengeong ...", kucing);
-//        tampilkanSuara("Ayam berkokok ...", ayam);
-//        tampilkanSuara("Harimau mengaum ...", harimau);
     }
-
-//    public static void tampilkanSuara(String pesan, Hewan hewan) {
-//        System.out.println(pesan);
-//        
-//        System.out.println();
-//    }
 }
 
