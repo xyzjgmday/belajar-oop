@@ -1,0 +1,13 @@
+=======================================================
+= SELAMAT DATANG DI MINI MARKET SEJAHTERA BERSAMA =
+=          SELAMAT BELANJA SECARA MANDIRI         =
+=======================================================
+
+Anda sudah berbelanja Mizone sejumlah 100 dengan harga satuan Rp. 10.0
+Anda mendapatkan diskon 2.0%
+Harga Total yang harus anda bayar adalah Rp. 980.0
+
+Anda sudah berbelanja Susu sejumlah 12 dengan harga satuan Rp. 5000.0
+Anda mendapatkan diskon 2.0%
+Harga Total yang harus anda bayar adalah Rp. 58800.0
+
